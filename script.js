@@ -7,5 +7,10 @@ hamburgerMenu.addEventListener('click', () => {
 
 document.getElementById('contact-form').addEventListener('submit', (event) => {
   event.preventDefault();
-  alert('Your message has been sent!');
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const body = document.getElementById("body").value;
+
+  const mailto = `mailto:khushi.jain2931@gmail.com?subject=Message from ${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
+  window.open(mailto,'_blank');
 });
