@@ -1,76 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Khushi Jain | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">Khushi Jain</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="hamburger-menu">&#9776;</button>
-    </nav>
-  </header>
+<html>
+  <head>
+    <title>Portfolio-24</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- navigation -->
+     <header>
+      <nav>
+        <div class="navigation">
+          <div class="navigation-left-section">
+            <div class="name">KHUSHI</div>
+          </div>
+          <div class="navigation-right-section">
+            <a href="#home" class="link">Home</a>         
+            <a href="#about" class="link">About</a>
+            <a href="#skill" class="link">Skills</a>
+            <a href="#project" class="link">Projects</a>
+            <a href="#contact" class="link">Contact</a> 
+          </div>
+        </div>
+      </nav>
+     </header>
+   
 
-  <section class="hero">
-    <h1>Hello, I'm Khushi Jain</h1>
-    <p>Aspiring Developer | BCA Student</p>
-    <a href="#contact" class="btn">Contact Me</a>
-  </section>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      I am a Bachelor of Computer Applications (BCA) student with a deep passion for technology and software development. My expertise includes JavaScript, React.js, Node.js, and other modern technologies.<br> I have actively participated in programming competitions, earning recognition and certifications for my skills.
-      <br>In addition to academics, I serve as the Public Relations Manager of my college's IT club, where I foster collaboration and engagement. I am also an enthusiastic volunteer with the NSS Cell, contributing to community service initiatives. <br>As a fast learner, I am always eager to explore and master emerging programming languages and technologies. </p>
-  </section>
+    <!-- main page -->
+     <section id="home">
+      <div class="hello-pic-flex">
+        <div class="hello-text">
+          <div style="color: rgb(247, 191, 123);">Hello!</div>
+          <div style="font-weight: bold; font-size: 50px;">I'm <span class="name2">Khushi<br> Jain</span></div>
+          <div style="font-size: 25px;">Fullstack Web Developer</div>
+          <button class="hire-button">HIRE ME</button>
+          <button class="work-button">MY WORKS</button>
+        </div>
+        <div class="profile-pic">profile pic</div>
+      </div>
+     </section>
+    
 
-  <section id="projects" class="projects">
-    <h2>My Projects</h2>
-    <div class="project-card">
-      <h3>Portfolio Website</h3>
-      <p>A responsive portfolio website showcasing my skills and projects.</p>
-    </div>
-  </section>
 
-  <section id="Skills" class="Skills">
-    <h2>My Skills</h2>
-    <div class="Skills-card">
-      <h3>Programming Skills</h3>
-   <ul>
-        <li><b>Languages:</b> Java, HTML, CSS, JavaScript</li>
-        <li><b>Frameworks/Libraries:</b> React.js, Node.js</li>
-        <li><b>Databases:</b> MySQL, MongoDB</li>
-        <li><b>Tools:</b> Git, VS Code</li>
-      </ul>
+    <!-- about -->
+     <section id="about">
+      <div class="pic-about-flex"> 
+        <div> 
+          profile-pic
+        </div>
+        <div class="about-text">
+        <div style="font-size: 15px;"><span>---- </span>ABOUT ME</div>
+        <div style="font-weight: bold; font-size: 25px;">Who Am <span style="color: rgb(246, 170, 76);">I</span></div>
+        <div class="about-me"><br>My name is Khushi Jain, I am a Bachelor of Computer Applications (BCA) student with a deep passion for technology and software development. My expertise includes JavaScript, React.js, Node.js, and other modern technologies.
+        I have actively participated in programming competitions, earning recognition and certifications for my skills.
+        In addition to academics, I serve as the Public Relations Manager of my college's IT club, where I foster collaboration and engagement. I am also an enthusiastic volunteer with the NSS Cell, contributing to community service initiatives.
+        <br><br>As a fast learner, I am always eager to explore and master emerging programming languages and technologies.
+      </div><br>
+      <a class="cv-button" href="./khushijain-resume.pdf">DOWNLOAD CV</a>
+        </div>
+       </div>
+     </section>
+      
+
+
+     <!-- skills -->
+      <section id="skill">
+      <div>
+        <div class="skills-text">My Skills</div><br>
+      </div> 
+      <div class="skills-flex">
+        <div>
+          <div class="skills-heading">Languages</div>
+          <div>HTML</div>
+          <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+            <br>
+            <div>Css</div>
+            <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+              <br>
+          <div>Java</div>
+          <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+            <br>
+        </div>
+        
+       
+        <div>
+          <div class="skills-heading">Frameworks</div>
+          <div>React.js</div>
+          <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+            <br>
+            <div>Node.js</div>
+            <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+              <br>
+        </div>
+        
+       
+        <div>
+          <div class="skills-heading">Database</div>
+          <div>My SQL</div>
+          <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+            <br>
+            <div>Mongo DB</div>
+            <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+              <br>
+        </div>
   
-  </section>
+  
+        <div>
+          <div class="skills-heading">Tool</div>
+          <div>Git</div>
+          <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+            <br>
+            <div>Vs Code</div>
+            <div style="line-height: 40px;"><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+              <br>
+        </div>
+      </div>
+    </section>
+     
 
 
+      <!-- projects -->
+       <section id="project">
+       <div class="all-projects"> 
+        <div class="project-heading"><center> All Creative Works, Selected Projects</center></div>
+        <div class="projects">
+          <div class="project-card1">
+            <div class="relative-flex">
+              <div>
+                <a href="https://khushijain2924.github.io/youtube-clone/">
+                <img class="youtube-icon" src="images/youtube-icon.png">
+              </a>
+              </div>
+              
+                <div class="absolute-flex">
+                  <div>
+                    <a href="https://khushijain2924.github.io/youtube-clone/">
+                      <button class="view-button">Full view</button></div>
+                    </a>
+                  </div>
+            </div>
+           <div class="discription"><span style="color: rgb(246, 170, 76);">YouTube clone:</span> A responsive youtube clone made by HTML & CSS. Deployed it using github pages. </div>
+           <div class="duration">
+            <div class="dur">Start date:</div>
+            <div class="dur"> 14th December, 2024</div>
+          </div>
+           <div class="duration">
+            <div class="dur">End date:</div>
+            <div class="dur">15th December, 2024</div>
+          </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+  
+  
+  
+  
+      <!-- contact me -->
+       <section id="contact">
+       <div>
+        <div>
+          <div class="connect-text">Let<span style="color: rgb(246, 170, 76);">'</span>s Connect</div><br>
+        </div>
+         <!-- leftside -->
+        <div class="contact-flex">
+          <div class="left-div">
+            <div class="contact-info">
+              <div class="head-info">CONTACT INFO</div>
+              <div class="mail-flex">
+                <div>
+                  <a style="color:rgb(235, 235, 235);;"href="mailto:khushi.jain2931@gmail.com">
+                    <img class="contact-img"src="images/email2.webp">
+                  </a>
+                </div>
+               
+                <div class="mail-text">
+                  <div>MAIL ME</div>
+                <div><a style="color:rgb(235, 235, 235);;"href="mailto:khushi.jain2931@gmail.com">Khushi.jain2931@gmail.com</a></div>
+                </div>
+              </div>
+             
+              <div class="mail-flex">
+                <img class="contact-img"src="images/location.jpg">
+                <div class="mail-text">
+                  <div>LOCATION</div>
+                <div>Delhi, India</div>
+                </div>
+              </div> 
+          <div>
+            <div class="social-info">SOCIAL INFO</div>
+            <div class="social-flex">
+              <div>
+                <a href="https://www.linkedin.com/in/khushi-jain-b432a3292/">
+                <img class="social-img" src="images/linkedin2.webp">
+              </a>
+              </div>
+              <div>
+                <a href="https://github.com/KhushiJain2924">
+                <img class="social-img" src="images/github.webp">
+              </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div> 
 
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <form id="contact-form" >
-      <input type="text" id="name" placeholder="Your Name" required>
-      <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="body" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2024 Khushi Jain. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+        <!-- right-side -->
+        <div class="right-flex">
+          <div>
+            <div>
+              <div class="contact-text">CONTACT ME <span style="color:rgb(246, 170, 76);">HERE</span></div>
+            </div>
+            <input class="name-text" type="text" placeholder="Name*" required>
+          </div>
+          <div>
+            <input class="name-text" type="text" placeholder="Email*" required>
+          </div>
+          <div>
+            <input class="name-text" type="text" placeholder="Your Subject*" required>
+          </div>
+          <div>
+            <input class="message-text" type="text" placeholder="Your Message*" required>
+          </div>
+          <div>
+            <button class="send-button">Send Message</button>
+          </div>
+        </div>
+       </div>
+      </section>
+    </body>
 </html>

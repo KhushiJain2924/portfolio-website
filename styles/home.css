@@ -1,0 +1,323 @@
+/* navigation */
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(37, 36, 36);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 20px;
+}
+.navigation-left-section{
+  color: white;
+  margin-left: 30px;
+}
+.name{
+  font-size: 30px;
+  color: rgb(253, 180, 91);
+}
+.navigation-right-section{
+  margin-right: 50px;
+  color: white;
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link{
+  cursor: pointer;
+  text-decoration:none;
+  color: white;
+}
+
+
+/* maine page */
+.name2{
+  color: rgb(253, 180, 91);
+  font-weight: bold;
+  line-height: 25px;
+}
+.hello-text{
+  line-height: 50px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.hire-button,
+.work-button,
+.cv-button{
+  background-color: black;
+  color: white;
+  border-style: solid;
+  padding: 12px 20px;
+  border-color: white;
+  border-radius:50px;
+  font-size: 10px;
+  font-weight: bold;
+  transition: background-color 0.15s color 0.15s border-color 0.15s;
+}
+.hire-button:hover,
+.work-button:hover{
+  background-color: white;
+  color: black;
+ border-color: black;
+  border-style: solid;
+  cursor: pointer;
+}
+.hire-button:active,
+.work-button:active{
+  background-color: rgb(246, 170, 76);
+}
+.hello-pic-flex{
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.profile-pic{
+  margin-top: 200px;
+}
+
+
+
+/* about */
+.pic-about-flex{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.about-text{
+  width: 600px;
+  margin-right: 100px;
+  line-height: 30px;
+}
+.about-me{
+  color: rgb(157, 154, 154);
+  line-height: 25px;
+  font-size: 18px;
+}
+.cv-button{
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  color: black;
+  background-color:rgb(246, 170, 76);
+  cursor: pointer; 
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.cv-button:hover{
+  background-color: rgb(226, 148, 52);
+}
+.cv-button:active{
+  opacity: 0.4;
+}
+
+
+/* skills */
+.skills-text{
+  font-size: 60px;
+  margin-left: 680px;
+}
+.checked {
+  color: orange;
+}
+.skills-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 200px;
+}
+.skills-heading{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color:rgb(246, 170, 76);
+  font-weight: bold;
+}
+
+/* project */
+.all-projects{
+  margin-bottom: 200px;
+}
+.project-heading{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  margin-left: 500px;
+}
+.youtube-icon{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 200px;
+}
+.projects{
+  display: flex;
+  margin-top: 20px;
+}
+.project-card1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+  .relative-flex{
+    display: flex;
+    position:relative;
+  }
+  .view-button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border-radius:8px ;
+    background-color: black;
+    color:rgb(246, 170, 76) ;
+    border: none;
+    cursor: pointer;
+   transition: box-shadow 0.15s opacity 0.15s;
+    }
+    .view-button:hover{
+      box-shadow: 0px 0px 6px 4px rgba(225, 185, 136, 0.3);
+    }
+    .view-button:active{
+      opacity: 0.7;
+    }
+  .absolute-flex{
+    display: flex;
+    position: absolute;
+    right:19px;
+    bottom:10px;
+  }
+  .discription{
+    width: 370px;
+    margin: 5px;
+    color: rgb(188, 186, 186);
+  }
+  .duration{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-bottom-width:1px ;
+    font-size: 15px;
+    color: rgb(246, 170, 76);
+    margin: 5px;
+  }
+  .dur{
+    color: rgb(188, 186, 186);
+  }
+
+
+
+  /* contact */
+  .connect-text{
+    font-size: 60px;
+    margin-left: 620px;
+  }
+  .contact-flex{
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .left-div{
+    margin-left: 250px;
+  }
+  .head-info{
+    color:rgb(235, 235, 235); 
+    font-size: 18px;
+  }
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    background-color: rgb(52, 51, 51);
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .mail-flex{
+    display: flex;
+    margin-top: 20px;
+  }
+  .mail-text{
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .social-info{
+    color:rgb(235, 235, 235); 
+    font-size: 18px;
+    margin-top: 100px;
+  }
+  .social-flex{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .social-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: rgb(52, 51, 51);
+    padding: 5px;
+  }
+  .name-text,
+  .message-text{
+    background-color:rgb(52, 49, 49);  
+    color: white;
+    width: 400px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .message-text{
+    top: 2px;
+    height: 100px;
+    font-display: top;
+  }
+  .send-button{
+    background-color:rgb(58, 56, 56);
+    color: white;  
+    width: 410px;
+    font-size: 12px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s, background-color 0.15s;
+  }
+  .send-button:hover{
+    opacity: 0.5;
+  }
+  .send-button:active{
+    background-color: white;
+    color: black;
+  }
+  .right-flex{
+    display: inline-block;
+    background-color: rgb(27, 26, 26);
+    padding: 30px;
+    padding-top: 50px;
+  }
+  .contact-text{
+    margin-bottom: 50px;
+    font-size: 30px;
+   
+  }
