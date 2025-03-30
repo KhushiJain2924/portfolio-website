@@ -219,6 +219,12 @@
   .dur{
     color: rgb(188, 186, 186);
   }
+  .certificate-1{
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      height: 200px;
+      width: 370px;
+  }
 
 
 
