@@ -38,9 +38,11 @@
   color: rgb(253, 180, 91);
   font-weight: bold;
   line-height: 25px;
+  font-size: 70px;
 }
 .hello-text{
-  line-height: 50px;
+  font-size: 30px;
+  line-height: 80px;
   margin-left: 300px;
   margin-top: 100px;
 }
@@ -53,7 +55,7 @@
   padding: 12px 20px;
   border-color: white;
   border-radius:50px;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: bold;
   transition: background-color 0.15s color 0.15s border-color 0.15s;
 }
@@ -78,6 +80,9 @@
 .profile-pic{
   margin-top: 200px;
 }
+.home{
+  margin-left: 250px;
+}
 
 
 
@@ -89,18 +94,18 @@
   margin-bottom: 200px;
 }
 .about-text{
-  width: 600px;
-  margin-right: 100px;
-  line-height: 30px;
+  width: 700px;
+  margin-right: 350px;
+  line-height: 50px;
 }
 .about-me{
   color: rgb(157, 154, 154);
   line-height: 25px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .cv-button{
   padding: 10px;
-  font-size: 12px;
+  font-size: 18px;
   border: none;
   color: black;
   background-color:rgb(246, 170, 76);
