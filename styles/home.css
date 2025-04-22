@@ -89,7 +89,19 @@
 /* about */
 .pic-about-flex{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.profile-pic{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-pic-center-div{
+  display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 200px;
 }
